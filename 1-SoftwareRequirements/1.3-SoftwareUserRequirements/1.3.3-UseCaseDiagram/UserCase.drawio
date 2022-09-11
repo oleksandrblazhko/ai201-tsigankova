@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-11T13:23:37.779Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="TIUnjk01xH14KD9n150b" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-11T13:27:57.467Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="pF1nUV3FlhL9z9_6IWOb" version="20.3.0" type="github">
   <diagram id="fcfgkmDactO-GC-Vs7x3" name="Страница 1">
-    <mxGraphModel dx="1429" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1048" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -154,7 +154,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x_c2Pru1peg9yBr78_QJ-31" value="&lt;div style=&quot;text-align: left;&quot;&gt;Google Search AI&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+        <mxCell id="x_c2Pru1peg9yBr78_QJ-31" value="&lt;div style=&quot;text-align: left;&quot;&gt;Google Search API&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="150" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x_c2Pru1peg9yBr78_QJ-32" value="Отримати&lt;br&gt;результати&lt;br&gt;досліджень" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
