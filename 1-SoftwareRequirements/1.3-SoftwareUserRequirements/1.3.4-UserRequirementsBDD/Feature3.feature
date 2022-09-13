@@ -1,4 +1,4 @@
-Feature User actions
+Feature: Answer technical questions
 In order to communicate with other users, use the search engine
 As an office employee
 I want to receive technical questions using Online-message,
