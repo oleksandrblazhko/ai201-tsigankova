@@ -1,0 +1,30 @@
+@startuml 
+left to right direction
+skinparam packageStyle rect
+actor User
+actor Employee
+actor Sportsman_consumer
+actor Office_worker
+actor Google_Search_API
+rectangle Software {
+  User -- (Authorization)
+  User <|-- Sportsman_consumer
+  User <|-- Employee
+  User <|-- Office_worker
+  
+  Employee <-- (Get technical answers)
+  (Ask technical questions) --> Office_worker
+  (Online_request) -- Google_Search_API
+  Sportsman_consumer -- (Conduct experiments and research)
+  Sportsman_consumer -- (Make a weather forecast)
+  Office_worker -- (Get technical answers)
+  
+  (Get technical answers) ..> (Authorization) : <<include>>
+  (Conduct experiments and research) ..> (Authorization) : <<include>>
+  (Make a weather forecast) ..> (Authorization) : <<include>>
+  
+  (Authorization) <.. (Ask technical questions) : <<include>>
+  
+  (Ask technical questions) <. (Online_request) : <<extend>>
+}
+@enduml
