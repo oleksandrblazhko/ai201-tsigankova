@@ -1,0 +1,44 @@
+@startuml
+title Relation Schema
+hide circle
+entity "Employee" as emp {
+  (PK)emp_id
+  --
+  surname
+  name
+  patronymic
+  work_experience
+  salary
+  (FK)weather_forecast_id
+  (FK)experiment_id
+  (FK)office_worker_id
+}
+
+entity "Weather_forecast" as wf {
+  (PK)weather_forecast_id
+  --
+  date
+  time
+  (FK)experiment_id
+}
+
+entity "Experiment" as exnt {
+  (PK)experiment_id
+  --
+  research
+  result
+}
+
+entity "Office_worker" as ow {
+  (PK)office_worker_id
+  --
+  surname
+  name
+  patronymic
+}
+
+wf --{ emp
+exnt --{ wf
+emp }-- ow
+
+@enduml
