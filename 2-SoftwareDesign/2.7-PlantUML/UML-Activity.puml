@@ -1,0 +1,18 @@
+@startuml
+
+title Conditional - Activity Diagram 
+
+start
+
+:The user conducts experiment;
+:The program analyzes results of experiment;
+
+if (Are results correct?) then (Yes)
+  :Results are correct!;
+else (No)
+  :Your results are incorrect!;
+endif
+
+stop
+
+@enduml
