@@ -1,5 +1,5 @@
 @startuml
-title Example of Classes Diagram
+title Classes Diagram
 
 Class Employee
 Class Experiment
