@@ -1,0 +1,13 @@
+@startuml
+title Example of Classes Diagram
+
+Class Employee
+Class Experiment
+Class Weather_forecast
+Class Office_worker
+
+Employee <|-- Office_worker
+Employee"1" -up-> "+"Weather_forecast : form
+Employee"1" -up-> "+"Experiment : conduct
+Weather_forecast"1" o-- "+"Experiment
+@enduml
