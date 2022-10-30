@@ -85,6 +85,10 @@ CREATE OR REPLACE TYPE Experiment AS OBJECT (
 ); 
 /
 
+/* Створення типу для зберігання списку експериментів - "Колекція екземплярів об`єктів класу Experiment */
+CREATE TYPE Experiment_List IS TABLE OF Experiment;
+/
+
 /* Створення об'єктного типу (класу) Equipment_indicators */
 CREATE OR REPLACE TYPE Equipment_indicators AS OBJECT (
     	indicators_list_id NUMBER(10), -- N списку змін індикаторів
